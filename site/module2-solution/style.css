@@ -1,0 +1,110 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: Arial , Helvica, sans-serif;
+}
+
+h1{
+	font-size: 1.75em;
+	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#container{
+	position:absolute;
+}
+
+h2{
+	font-size: 1.25em;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	text-align: center;
+	border-color: black;
+	border: 1px;
+	position: absolute;
+	top: -20px;
+	right: 0px;
+} 
+
+.text{
+	position: relative;
+	top:15px;
+}
+
+.b1,.b2,.b3{
+	border-color: black;
+	border: 1px;
+	position:relative;
+	float: left;
+	padding: 10px;
+	background-color: white;
+	position: relative;
+}
+
+.Square1,.Square2,.Square3{
+	font-size: 1.2em;
+	font-weight: 900;
+	text-align: justify;
+	background-color: #B1BBB5;
+	padding: 20px;
+	position: relative;
+}
+
+.Square1 h2{
+	color: white;
+	background-color: #B01CB8 ;
+	width: 150px;
+}
+
+.Square2 h2{
+	color: white;
+	background-color: #FF4F3B ;
+	width: 150px;
+}
+
+.Square3 h2{
+	color: black;
+	background-color: #FEEF72 ;
+	width: 150px;
+}
+
+@media (min-width: 992px){
+	.b1 {
+		width: 33.33%;
+	}
+	.b2 {
+		width: 33.33%;
+	}
+	.b3 {
+		width: 33.33%;
+	}	
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.b1 {
+		width: 50%;
+	}
+	.b2 {
+		width: 50%;
+	}
+	.b3 {
+		width: 100%;
+	}	
+}
+
+@media (max-width: 767px){
+	.b1 {
+		width: 100%;
+	}
+	.b2 {
+		width: 100%;
+	}
+	.b3 {
+		width: 100%;
+	}	
+}
+
+/*	@Autor: Jorge Adrian Lucas Sanchez	*/   
+/*	https://github.com/Deschain53/coursera-test	*/
+
